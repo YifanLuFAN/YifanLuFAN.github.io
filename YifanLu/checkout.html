@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Micheline Andrews - organic products shop</title>
+        <link rel="stylesheet" href="style mobile.css">  
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">          
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Oleo+Script:wght@400;700&display=swap" rel="stylesheet">     
+        <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+<body>
+    <div class="container1">
+        <header>
+            <!-- Top Navigation Menu -->
+            <div class="topnav">
+                <a class="active"></a>
+                <!-- Navigation links (hidden by default) -->
+                <div id="myLinks">
+                <a href="#">WELCOME</a>
+                <a href="#">TAKE A BROTH TAMANIA</a>
+                <a href="#">CUlTURE CLEAN</a>
+                <a href="#">SHOP</a>
+                <a href="#">RECIPES</a>
+                <a href="#">BLOG</a>
+                <a href="#">CONTACT</a>
+                </div>
+            <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+                </a>
+            </div>
+            <div class="logo"><img src="images/logo.png" alt="website logo: Micheline Andrews"></div>
+            <div class="menu"><img src="images/search.png" alt="serching bar"><img src="images/accounts.png" alt="accounts"><img src="images/cart.png" alt="shopping cart"></div>
+            <nav><li>WELCOME</li><li>TAKE A BROTH TAMANIA</li><li>CUlTURE CLEAN</li><li>SHOP</li><li>RECIPES</li><li>BLOG</li><li>CONTACT</li></nav>
+        </header>
+    </div>
+    <div class="container2">
+      <div class="checkout">
+        <div class="form1">
+            <h1>Delivery details</h1>
+            <hr>
+            <form>
+                <label for="name">Full name</label><br>
+                <input type="text" id="name" name="name" placeholder="Enter your full name"><br>
+                <label for="email">Email address</label><br>
+                <input type="email" id="email" name="email" placeholder="Enter your email address"><br>
+                <label for="address">Address</label><br>
+                <input type="text" id="address" name="address" placeholder="Enter your address"><br>   
+                <label for="phone">Phone number</label><br>  
+                <input type="text" id="phone" name="phone" placeholder="Enter your phone number"><br>
+                <label for="post">Post code</label><br>
+                <input type="text" id="post" name="post" placeholder="Enter your phone number"><br>
+            </form>
+        </div>
+        <div class="form2">
+            <h1>Payment details</h1>
+            <hr>
+            <form>
+                <label for="cardname">Name on card</label><br>
+                <input type="text" id="cardname" name="cardname" placeholder="Enter your name on card"><br>
+                <label for="cardnumber">Card number</label><br>    
+                <input type="text" id="cardnumber" name="cardnumber" placeholder="Enter your card number"><br>
+                <label for="expiration">Expiration date (/)</label><br>
+                <input type="text" id="expiration" name="expiration" placeholder="Enter your expiration date"><br>
+                <label for="cvv">Security code</label><br>
+                <input type="text" id="cvv" name="cvv" placeholder="Enter your security code"><br>
+            </form>
+            <a href="successful.html"><button>Pay now</button></a>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
